@@ -21,7 +21,7 @@
                             href="{{ url('dashboard-ecommerce-dashboard') }}">Ecommerce Dashboard</a>
                     </li>
                 </ul>
-            </li>
+            {{--</li>
             <li class="menu-header">Starter</li>
             <li class="nav-item dropdown {{ $type_menu === 'layout' ? 'active' : '' }}">
                 <a href="#"
@@ -225,7 +225,7 @@
                     <li><a href="gmaps-simple.html">Simple</a></li>
                 </ul>
             </li> --}}
-            <li class="nav-item dropdown {{ $type_menu === 'modules' ? 'active' : '' }}">
+            {{--<li class="nav-item dropdown {{ $type_menu === 'modules' ? 'active' : '' }}">
                 <a href="#"
                     class="nav-link has-dropdown"><i class="fas fa-plug"></i> <span>Modules</span></a>
                 <ul class="dropdown-menu">
@@ -389,6 +389,6 @@
                 class="btn btn-primary btn-lg btn-block btn-icon-split">
                 <i class="fas fa-rocket"></i> Documentation
             </a>
-        </div>
+        </div>--}}
     </aside>
 </div>
