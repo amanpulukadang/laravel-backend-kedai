@@ -6,5 +6,5 @@
             </button>
             <p>{{ $message }}</p>
         </div>
-    </div>
+ </div>
 @endif
